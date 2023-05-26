@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Matrícula - PSG Senac</title>
+    <script src="script.js"></script>
+    <style>
+        #mensagem {
+            margin-top: 10px;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        #mensagem.success {
+            color: green;
+        }
+
+        #mensagem.error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Verificação de Matrícula - PSG Senac</h2>
+    <form id="matriculaForm">
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento" name="dataNascimento" required><br><br>
+        
+        <label for="rendaTotal">Renda Total da Família:</label>
+        <input type="number" id="rendaTotal" name="rendaTotal" required><br><br>
+        
+        <label for="numMoradores">Número de Moradores:</label>
+        <input type="number" id="numMoradores" name="numMoradores" required><br><br>
+        
+        <input type="submit" value="Verificar Matrícula">
+    </form>
+
+    <div id="mensagem"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
