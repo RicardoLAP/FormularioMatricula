@@ -9,12 +9,34 @@
     <script src="../caminho/para/particles.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <nav class="navbar bg-primary" data-bs-theme="dark">
+
+<style>
+    body {
+        background: linear-gradient(to right, rgb(137, 133, 221), rgb(41, 187, 245), rgb(92, 92, 241));
+        color: whitesmoke;
+    }
+    .payments {
+        background: linear-gradient(to right, rgb(137, 133, 221), rgb(41, 187, 245), rgb(92, 92, 241));
+    }
+    .align-right {
+    float: right;
+    }
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card-header strong {
+        margin-right: auto;
+    }
+
+</style>
+    <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <div class="d-flex align-items-center">
                     <img src="../img/Senac.png" width="50px" height="50px" class="mr-2" alt="Logo do Senac">
-                    <span>SENAC</span>
+                    <span>SENAC - Portal do Aluno</span>
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,12 +54,245 @@
                         <a class="nav-link" href="../pages/inscric.html">Inscrições</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/quem.html">Quem somos</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="../pages/aluno.html">Portal Aluno</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+</head>
+
+<body>
+    <br>
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="payments">
+                    <div class="row">
+                        <div class="col">
+                            <span class="payments__title"><strong> Chega de desculpas</strong></span>
+                            <span class="payments__subtitle"><strong> Nós te ajudamos!</strong></span>
+                            <p class="payments__text">
+                                <strong> Conheça nossa</strong> <a href="https://www.go.senac.br/conteudo/politica-de-descontos"><strong> política de descontos</strong></a>.
+                                <strong>Você não precisa adiar o início do seu curso.</strong>
+                            </p>
+                            <ul class="payments-ways">
+                                <li class="visa"><img src="https://www.go.senac.br/img/icons/card-visa.png" alt=""></li>
+                                <li class="master"><img src="https://www.go.senac.br/img/icons/card-master.png" alt=""></li>
+                                <li class="elo"><img src="https://www.go.senac.br/img/icons/card-elo.png" alt=""></li>
+                                <li class="american"><img src="https://www.go.senac.br/img/icons/card-ame-express.png" alt=""></li>
+                                <li class="diners"><img src="https://www.go.senac.br/img/icons/card-diners.png" alt=""></li>
+                                <li class="boleto"><img src="https://www.go.senac.br/img/icons/boleto.png" alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <figure class="payments__people">
+                                <img src="https://www.go.senac.br/img/payment-people.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <br>
+            <br>
+            <br>
+            <div style="text-align: right;">
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Assistente Adminstrativo</strong> <a href="https://www.go.senac.br/curso/54422-assistente-administrativo&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚<strong>Cuidados com o Bebê e pós-parto</strong><a href="https://www.go.senac.br/curso/54451-cuidados-com-o-bebe-e-pos-parto&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Cabeleleiro</strong> <a href="https://www.go.senac.br/curso/54466-cabeleireiro" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Técnico em Adminstração</strong> <a href="https://www.go.senac.br/curso/54470-tecnico-em-administracao&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Operador de Computador</strong> <a href="https://www.go.senac.br/curso/54478-operador-de-computador&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Recepcionista em Serviços de Saúde</strong> <a href="https://www.go.senac.br/curso/54685-recepcionista-em-servicos-de-saude&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Cuidador Infantil</strong> <a href="https://www.go.senac.br/curso/54692-cuidador-infantil&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Assistente de Logística</strong> <a href="https://www.go.senac.br/curso/54759-assistente-de-logistica&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Manicure e Pedicure</strong> <a href="https://www.go.senac.br/curso/54829-manicure-e-pedicure&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Especialização Técnica em Instrumentação Cirúrgica</strong> <a href="https://www.go.senac.br/curso/54868-especializacao-tecnica-em-instrumentacao-cirurgica&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Finanças para a Venda</strong> <a href="https://www.go.senac.br/curso/54952-financas-para-a-venda&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Cabeleireiro Assistente</strong> <a href="https://www.go.senac.br/curso/55145-cabeleireiro-assistente&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Montagem e Assistência Técnica em Computadores</strong> <a href="https://www.go.senac.br/curso/55956-montagem-e-assistencia-tecnica-em-computadores&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Liderança para Resultados</strong> <a href="https://www.go.senac.br/curso/56184-lideranca-para-resultados&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Atualização no tratamento de feridas e curativos</strong> <a href="https://www.go.senac.br/curso/91891-atualizacao-no-tratamento-de-feridas-e-curativos&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Cuidados com pessoas com deficiência</strong> <a href="https://www.go.senac.br/curso/91911-cuidados-com-pessoas-com-deficiencia&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Cuidados com pessoas com deficiência</strong> <a href="https://www.go.senac.br/curso/54466-cabeleireiro" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Instalador e Reparador de Redes de Computadores</strong> <a href="https://www.go.senac.br/curso/95868-instalador-e-reparador-de-redes-de-computadores&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Operador de Caixa</strong> <a href="https://www.go.senac.br/curso/96615-operador-de-caixa&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Assistente de Faturamento</strong> <a href="https://www.go.senac.br/curso/96904-assistente-de-faturamento&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Assistente de Contabilidade</strong> <a href="https://www.go.senac.br/curso/96905-assistente-de-contabilidade&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Cuidador de Idoso</strong> <a href="https://www.go.senac.br/curso/97469-cuidador-de-idoso&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Como Iniciar um Negócio do Zero</strong> <a href="https://www.go.senac.br/curso/98068-como-iniciar-um-negocio-do-zero&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Atendimento Humanizado na Assistência à Saúde</strong> <a href="https://www.go.senac.br/curso/98631-atendimento-humanizado-na-assistencia-a-saude&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Técnico em Recursos Humanos</strong> <a href="https://www.go.senac.br/curso/98702-tecnico-em-recursos-humanos&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Primeiros Socorros</strong> <a href="https://www.go.senac.br/curso/98892-primeiros-socorros&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Estratégias de Vendas para Comércio de Rua</strong> <a href="https://www.go.senac.br/curso/99992-estrategias-de-vendas-para-comercio-de-rua&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Técnico em Logística</strong> <a href="https://www.go.senac.br/curso/54471-tecnico-em-logistica&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Técnico em Informática</strong> <a href="https://www.go.senac.br/curso/54525-tecnico-em-informatica&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Programador de Sistemas</strong> <a href="https://www.go.senac.br/curso/54657-programador-de-sistemas&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Atendente de Farmácia</strong> <a href="https://www.go.senac.br/curso/54854-atendente-de-farmacia&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    📚 <strong>Desenvolvimento Web - Front End</strong> <a href="https://www.go.senac.br/curso/95866-desenvolvimento-web-front-end&psg=1" class="btn btn-primary">Informações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<footer>
+    <div class="container text-center">
+        <div class="row align-items-end">
+        <div class="col">
+            <h4>Atendimento on-line</h4>
+            <p>⏱️Segunda a sexta: 8h às 20h</p>
+            <p>⏱️Sábado 8h às 14h</p>
+            <br>
+            <h4>Adm. Regional</h4>
+                <p>🚩Rua 31-A, N° 43 Setor Aeroporto Goiânia-GO</p>
+                <P>📧atendimento@go.senac.br</P>
+                <p>☎️(62) 3219-5180</p>
+        </div>
+        <div class="col">
+            <br>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61165.05748309586!2d-49.31255221366882!3d-16.63599656309347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef250d5f74183%3A0x78e6118444fcfc2e!2sFaculdade%20Senac%20Goi%C3%A1s%20-%20Sede!5e0!3m2!1spt-BR!2sbr!4v1685391208887!5m2!1spt-BR!2sbr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <br>
+            <p><strong>&copy; Senac-RP. Todos os direitos reservados.</strong></p>
+        </div>
+        <div class="col">
+            <img src="../img/Senac.png" width="250px" height="250px">
+            <br>
+            <br>
+
+        </div>
+        </div>
+        </div>
+</footer>
+</body>
+</html>

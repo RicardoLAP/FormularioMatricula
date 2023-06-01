@@ -7,41 +7,44 @@
     <title>Senac</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <nav class="navbar bg-primary" data-bs-theme="dark">
-        <nav class="navbar bg-primary" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <div class="d-flex align-items-center">
-                        <img src="img/Senac.png" width="50px" height="50px" class="mr-2" alt="Logo do Senac">
-                        <span>SENAC</span>
-                    </div>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active bg" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/cursos.html">Cursos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/inscric.html">Inscrições</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/quem.html">Quem somos</a>
-                        </li>
-                    </ul>
+    
+    <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="d-flex align-items-center">
+                    <img src="img/Senac.png" width="50px" height="50px" class="mr-2" alt="Logo do Senac">
+                    <span>SENAC - Portal do Aluno</span>
                 </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active bg" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/inscric.html">Inscrições</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/aluno.html">Portal Aluno</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </nav>    
+        </div>
+    </nav>
     <style>
         .lista-item {
         margin-bottom: 10px;
     }
+    body {
+        background: linear-gradient(to right, rgb(137, 133, 221), rgb(41, 187, 245), rgb(92, 92, 241));
+        color: whitesmoke;
+    }   
     </style>
     
 </head>
@@ -49,13 +52,59 @@
     <div class="container text-center">
         <div class="row align-items-start">
         <div class="col">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio eos libero corporis ut harum accusamus iste eligendi! Fugiat harum labore temporibus! Aut veritatis tenetur magnam sapiente ut. Perspiciatis, iusto neque.
+            <br>
+            <br>
+            <br>
+            <img src="../FormularioMatricula/img/curso1.jpg" alt="Curso">
+            <br>
+            <br>
+            <img src="../FormularioMatricula/img/curso2.jpg" alt="Curso">
         </div>
         <div class="col">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At veniam alias, ducimus cupiditate voluptates provident necessitatibus similique aliquid tenetur distinctio qui explicabo accusantium eius illo, unde cum voluptatibus delectus fugit?
+            <br>
+            <br>
+            <br>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../FormularioMatricula/img/senac2.jpg" class="d-block w-100" alt="Senac" width="500px" height="350px">
+                </div>
+                <div class="carousel-item">
+                    <img src="../FormularioMatricula/img/senac3.jpg" class="d-block w-100" alt="Senac" width="500px" height="350px">
+                </div>
+                <div class="carousel-item">
+                    <img src="../FormularioMatricula/img/senac4.jpg" class="d-block w-100" alt="Senac" width="500px" height="350px">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
         </div>
         <div class="col">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptatum voluptatem dicta laudantium quo blanditiis sequi! Qui, harum! Odit nostrum ipsam harum est rem quod vero. Incidunt distinctio deserunt nostrum?
+            <br>
+            <br>
+            <br>
+            <h4>Atendimento on-line</h4>
+            <p>⏱️Segunda a sexta: 8h às 20h</p>
+            <p>⏱️Sábado 8h às 14h</p>
+            <br>
+            <h4>Adm. Regional</h4>
+                <p>🚩Rua 31-A, N° 43 Setor Aeroporto Goiânia-GO</p>
+                <P>📧atendimento@go.senac.br</P>
+                <p>☎️(62) 3219-5180</p>
+            
         </div>
         </div>
     </div>
@@ -63,11 +112,19 @@
     <div class="container text-center">
         <div class="row align-items-end">
         <div class="col">
-            <img src="../FormularioMatricula/img/Senac.png">
-            ...
+            <img src="../FormularioMatricula/img/Senac.png" width="250px" height="250px">
+            <br>
+            <br>
+            
         </div>
         <div class="col">
+            <br>
+            <br>
+            <br>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61165.05748309586!2d-49.31255221366882!3d-16.63599656309347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef250d5f74183%3A0x78e6118444fcfc2e!2sFaculdade%20Senac%20Goi%C3%A1s%20-%20Sede!5e0!3m2!1spt-BR!2sbr!4v1685391208887!5m2!1spt-BR!2sbr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <br>
+            <p><strong>&copy; Senac-RP. Todos os direitos reservados.</strong></p>
         </div>
         <div class="col">
             <h3>Quem Somos:</h3>
